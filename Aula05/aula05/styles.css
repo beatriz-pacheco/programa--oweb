@@ -1,0 +1,122 @@
+h1 {
+    font-size: 50px;
+    font-family: calibri;
+    color: rgb(0, 8, 255);
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: arial;
+    color: rgb(227, 89, 89);
+    font-style:oblique;
+}
+
+p {
+    font-size: 14px;
+    font-family: calibri;
+    color: black;
+    font-style: normal;
+}
+
+hr {
+    border-style:solid;
+    border-width: 5px;
+    border-radius:5px;
+    border-color:rgb(131, 131, 211);
+}
+
+a.http {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.http:hover {
+    font-style: italic;
+    color: orange;
+    background-color: green;
+}
+
+#copyright {
+    color: red;
+}
+
+#copyright1 {
+    color: red;
+}
+
+
+ul.menuv {
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    display: flex;
+}
+
+ul.menuv li:hover {
+    background-color: rgb(196, 194, 194);
+}
+
+ul.menuv li {
+    padding: 14px 16px;
+    border-right: 1px solid #bbb;
+    text-align: center;
+}
+
+ul.menuv li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.menuv li.active{
+    color: white;
+    background-color: green;
+}
+
+ul.menuv li.active:hover{
+    background-color: rgb(70, 239, 70);
+}
+
+ul.menuv li.active:hover a{
+    color: black;
+}
+
+table {
+    border-color: red;
+    border-style:dotted;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+caption {
+    color: rgb(106, 106, 216);
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+th {
+    border-color: red;
+    border-style:dotted;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: rgb(53, 109, 101);
+    text-align: center;
+}
+
+td {
+    border-color: red;
+    border-style:dotted;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.notebooks {
+    color: red;
+}
+
+.return{
+    text-decoration: none;
+    color: black;
+}
